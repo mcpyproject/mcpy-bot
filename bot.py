@@ -20,9 +20,9 @@ async def branch(ctx, arg):
 @client.command()
 async def repo(ctx, arg):
     if (arg == 'main' or arg == 'mcpy'):
-        await ctx.send(f'The github repo for McPy is located at https://github.com/mcpyproject/McPy')
+        await ctx.send('The github repo for McPy is located at https://github.com/mcpyproject/McPy')
     if (arg == 'bot'):
-        await ctx.send(f'The github repo for the McPy discord bot is located at https://github.com/mcpyproject/mcpy-bot') 
+        await ctx.send('The github repo for the McPy discord bot is located at https://github.com/mcpyproject/mcpy-bot') 
 
 @client.command()
 async def tryitandsee(ctx):
