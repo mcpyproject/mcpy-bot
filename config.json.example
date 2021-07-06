@@ -1,4 +1,5 @@
 {
     "token": " --TOKEN HERE-- ",
-    "prefix": "."
+    "prefix": ".",
+    "status": "on the McPy server"
 }
